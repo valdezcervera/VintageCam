@@ -1,12 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import CameraPage from './src/camera.page'
+import CameraPage from './src/camera.page';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
 export default class App extends React.Component {
-  render () {
-    return (
-      <CameraPage/>
-    );
-  };
-};
+    render () {
+        return (
+            <CameraPage/>
+        );
+    }
+}
