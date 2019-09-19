@@ -1,13 +1,13 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "eslint": "^6.4.0",
     "expo": "^34.0.1",
     "expo-camera": "^6.0.0",
     "expo-image-picker": "^6.0.0",
@@ -18,11 +18,17 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
     "react-native-camera": "^3.4.0",
     "react-native-easy-grid": "^0.2.2",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-reanimated": "^1.1.0",
     "react-native-web": "^0.11.4",
-    "react-navigation": "^4.0.5"
+    "react-navigation": "^4.0.5",
+    "react-navigation-stack": "^1.8.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
   },
   "devDependencies": {
-    "babel-preset-expo": "^6.0.0"
+    "babel-preset-expo": "^6.0.0",
+    "eslint-plugin-react": "^7.14.3"
   },
   "private": true
 }

@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
 const Width = Dimensions.get('screen').width;
-
+const Height = Dimensions.get('screen').height;
 export default StyleSheet.create({
     preview: {
         height: Width,
@@ -15,7 +15,7 @@ export default StyleSheet.create({
     background: {
         flex: 1,
         resizeMode: 'cover',
-        width: '100%',
+        height: Height,
     },
     camera: {
         flex: 1,
@@ -23,8 +23,8 @@ export default StyleSheet.create({
     },
     controlsBar: {
         flexDirection: 'row',
-        position: "absolute",
-        bottom: '7%',
+        position: 'absolute',
+        bottom: 0,
         width: Width,
         alignItems: 'center',
         justifyContent: 'space-evenly'
@@ -43,8 +43,8 @@ export default StyleSheet.create({
     },
     topBarControls: {
         flexDirection: 'row',
-        position: "absolute",
-        top: 15,
+        position: 'absolute',
+        top: 5,
         width: Width,
         alignItems: 'center',
     },
@@ -55,6 +55,11 @@ export default StyleSheet.create({
     zoom_Out: {
         alignItems: 'flex-start',
         width: '50%',
+    },
+    permissionDenied: {
+        flex: 1, 
+        alignItems: 'center', 
+        justifyContent: 'center',
     }
 
 });
