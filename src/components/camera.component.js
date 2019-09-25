@@ -15,6 +15,7 @@ function CameraComponent(props) {
             flashMode={props.config.flashMode}
             ratio={props.config.ratio}
             zoom={props.config.zoom}
+            whiteBalance={props.config.whiteBalance}
         >
             <View
                 style={{
@@ -23,7 +24,7 @@ function CameraComponent(props) {
                     flexDirection: 'row',
                 }}>
             </View>
-        </Camera>)
+        </Camera>);
 }
 
 export default CameraComponent;

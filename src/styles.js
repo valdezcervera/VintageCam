@@ -24,7 +24,7 @@ export default StyleSheet.create({
     controlsBar: {
         flexDirection: 'row',
         position: 'absolute',
-        bottom: 0,
+        bottom: '3%',
         width: Width,
         alignItems: 'center',
         justifyContent: 'space-evenly'
@@ -44,16 +44,21 @@ export default StyleSheet.create({
     topBarControls: {
         flexDirection: 'row',
         position: 'absolute',
-        top: 5,
+        bottom: '18%',
         width: Width,
         alignItems: 'center',
+        justifyContent: 'space-evenly'
     },
     zoom_In: {
-        alignItems: 'flex-end',
-        width: '50%',
+        alignItems: 'center',
+        width: '25%',
     },
     zoom_Out: {
-        alignItems: 'flex-start',
+        alignItems: 'center',
+        width: '25%',
+    },
+    white_Balance: {
+        alignItems: 'center',
         width: '50%',
     },
     permissionDenied: {
