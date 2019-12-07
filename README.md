@@ -9,7 +9,7 @@ An aditional module with vintage filters is on its way!
 ### Screenshots
 
 <p align="center">
-<img src='./screenshots/Screenshot1.png' alt='login' >
+<img src='./screenshots/Screenshot.png' alt='login' >
 </p>
    
 
