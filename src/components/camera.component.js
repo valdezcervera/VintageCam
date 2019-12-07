@@ -3,7 +3,6 @@ import styles from '../styles.js';
 import { View } from 'react-native';
 import { Camera } from 'expo-camera';
 
-
 function CameraComponent(props) {
 
     return (

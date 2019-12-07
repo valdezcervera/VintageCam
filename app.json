@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Momento",
-    "slug": "momentocam",
+    "name": "vintageCam",
+    "slug": "vintagecam",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -26,7 +26,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "A vintage like camera app, with gallery editor.",
+    "description": "Vintage 6x6 camera project, \nongoing development.",
     "githubUrl": "https://github.com/valdezcervera"
   }
 }

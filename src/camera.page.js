@@ -248,29 +248,3 @@ class CameraPage extends React.Component {
 export default CameraPage;
 
 
-
-
-
-
-
-  // FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + 'Moment').catch(e => {
-  //   console.log(e, 'Directory exists'); 
-  // });
-
-
-  // Maybe create a separate folder for the app??
-  // onPictureSaved = async photo => {
-  //     await FileSystem.moveAsync({
-  //         from: photo.uri,
-  //         to: `${FileSystem.documentDirectory}VintagePhotos/${Date.now()}.jpg`,
-  //     });
-  //     this.setState({ newPhotos: true });
-  // }  // Maybe create a separate folder for the app??
-  // onPictureSaved = async photo => {
-  //     await FileSystem.moveAsync({
-  //         from: photo.uri,
-  //         to: `${FileSystem.documentDirectory}VintagePhotos/${Date.now()}.jpg`,
-  //     });
-  //     this.setState({ newPhotos: true });
-  // }
-
