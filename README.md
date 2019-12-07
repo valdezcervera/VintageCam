@@ -8,11 +8,9 @@ An aditional module with vintage filters is on its way!
 
 ### Screenshots
 
-<p align="center">
 <img src='./screenshots/Screenshot.png' alt='login' >
-</p>
-   
 
+   
 ### Installation
 If you want to try it out on your phone, do it with expo-client!
 
