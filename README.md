@@ -9,7 +9,7 @@ An aditional module with vintage filters is on its way!
 ### Screenshots
 
 <p align="center">
-<img src='./screenshots/Nexus6P-Screenshot1.png' alt='login' >
+<img src='./screenshots/Screenshot1.png' alt='login' >
 </p>
    
 
@@ -26,4 +26,4 @@ If you want to try it out on your phone, do it with expo-client!
 * Expo
 
 ### Developer
-Florian Jost [LinkedIn](https://www.linkedin.com/in/cesar-valdez-cervera/)
+Cesar Valdez Cervera [LinkedIn](https://www.linkedin.com/in/cesar-valdez-cervera/)
