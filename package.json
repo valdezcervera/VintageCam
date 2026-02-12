@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "eslint": "^6.4.0",
-    "expo": "^34.0.1",
+    "expo": "^48.0.0",
     "expo-camera": "^6.0.0",
     "expo-cli": "^3.2.3",
     "expo-image-picker": "^6.0.0",
